@@ -1,0 +1,36 @@
+Press Play to start
+WASD to move the player
+F to switch between first person and third
+Up and Down arrow will change third person camera height
+Left and Right arrow will rotate camera in third person
+The player will be able to equip Bucket near the house by pressing E
+Pressing the Left mouse button will let it pick up water, if the bucket is equipped.
+Pressing the left mouse again will drop water.
+Dropping water near the brown area will darken the color, indicating the area is wet.
+Going to the yellow box near the house will let the player equip seeds.
+Going near the wet area will allow the player to plant seed.
+Pressing escape button pause the game
+The game can be resumed or restarted after that
+The player will drop slightly if he steps into the water area.
+The player is not able to go outside the area or into the house.
+
+Update 2:
+Day/Night cycle created. The game starts with Day, after pressing play, the transition starts. Between the transition, it stays at night for some time.
+Changed “Going to the yellow box near the house will let the player equip seeds.” this logic to “Seeds can’t be taken if the land is not watered.”
+Once the seed is sawed, based on time passing, their height will increase. Once the increase is done, they are ready to be harvested.
+A Score indicator is created, sawing seeds gets 5 points and harvesting gets 10 points.
+In the night time, if there are crops, zombies will attack the field.
+If g is pressed, the player will have 10 ammo. For each hit the zombie player will get 10 points. If a player loses 10 ammo, for each extra ammo, the player will lose 5 points.
+When the player gains 100 points or more, the level will upgrade and all zombies will die.
+If 5 zombies manage to enter the field, the game will be over. And only the restart button will work.
+
+Update 3:
+Farm Established and currently marked red on Level 1 and When leveling up to Level 2. The farm section unlocks with Cow within it
+Added Cow Movement within the farm 
+When it's level 2, zombies increase in number from 10 to 22.. Level 1 has 10 zombies already. When 11 zombies appear inside the crop area, the game is set to over.
+Added health bar logic to zombies to see how much health is left
+When zombies walk through the fence, the fence is broken and When Pressing P button, the broken fence is restored
+Added torch system and when the zombies are under the torch's light, the zombies are slowed down. Pressing the T button, activates the torch system
+For difficulty spikes, on level 2, 22 zombies appear at night time. 7 of the 22 zombies are labeled as Tank which are slow and take 6 bullets to die and 15 of the 22 zombies are labeled as Sprinter, they move fast and take 2 bullets to die.
+Added a Sprinkler system to make the crop area to wet automatically. By pressing the K button, it appears and pressing X removes it.
+When leveling up to 2, there’s now a selection option for crops and you can switch between them. One is Normal and the other is Golden seed. Harvesting Golden seeds rewards players with 25 points.
